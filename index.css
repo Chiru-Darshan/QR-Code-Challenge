@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+  position: absolute;
+  color: black;
+  background-color: hsl(0, 0%, 100%);
+  width: 280px;
+  height: 450px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.card h4 {
+  padding: 10px;
+}
+
+.title {
+  font-weight: 700;
+  text-align: center;
+  margin: 10px;
+}
+
+.card > p {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  color: hsl(212, 45%, 89%);
+  margin: 10px;
+}
+
+.card img {
+  border-radius: 15px;
+}
